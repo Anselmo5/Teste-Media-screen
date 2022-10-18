@@ -1,0 +1,100 @@
+body{
+    background-color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.tes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tes h1{
+text-align: center;
+background-color: crimson;
+border: 2px solid white;
+border-radius: 7px;
+width: 40vh;
+margin-top: 10px;
+padding: 10px;
+}
+
+
+.ped p{
+    background-color: darkolivegreen;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50vh;
+}
+
+.ans p{
+    background-color: deepskyblue;
+    border: 2px solid white;
+    width: 50vh;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media screen and ( max-width : 1000px){
+
+    .ped{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    .ans{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    
+
+    .ped p{
+        width: 28vh;
+        font-size: 30px;
+        text-align: center;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .ans p{
+        width: 28vh;
+        text-align: center;
+        font-size: 25px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .tes h1{
+        width: 30vh;
+        padding: 15px;
+        font-size: 25px;
+       
+        
+    }
+
+
+    .Alinhamento{
+        margin-top: 28vh;
+    }
+
+
+}
